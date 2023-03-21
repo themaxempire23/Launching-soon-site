@@ -13,3 +13,28 @@
   background-size: cover;
   padding: 0 8%;
 }
+.logo1 {
+  width: 120px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.content h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.content h1 span {
+  color: rgba(3, 223, 10, 0.2);
+}
+.content button {
+  background: transparent;
+  border: 2px solid;
+  outline: none;
+  padding: 12px 25px;
+  color: #ffff;
+}
